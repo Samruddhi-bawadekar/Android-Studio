@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Analog Time Picker -->
+    <Button
+        android:id="@+id/btnAnalogTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Analog Time"/>
+
+    <TextView
+        android:id="@+id/tvAnalogResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analog Time will appear here"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Digital Time Picker -->
+    <Button
+        android:id="@+id/btnDigitalTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Digital Time"/>
+
+    <TextView
+        android:id="@+id/tvDigitalResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Time will appear here"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Date Picker -->
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Date"/>
+
+    <TextView
+        android:id="@+id/tvDateResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date will appear here"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
